@@ -1,0 +1,7 @@
+# Dependencias identificadas en el código; versiones originales no registradas.
+# Google Colab, Ollama y los entornos de RL requieren configuración adicional.
+jupyterlab
+numpy
+pandas
+plotly
+pycountry

@@ -1,0 +1,16 @@
+# Variables de entorno y secretos
+.env
+
+# Archivos basura del sistema operativo
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Volúmenes de datos locales de Docker (para no subir la BD)
+kafka-data/
+influx-data/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
