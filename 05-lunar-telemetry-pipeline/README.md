@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [Docker Compose](compose.yaml) · [Informe de decisiones](Architecture_Engineering_Decisions_Report.pdf) · [Dashboard](dashboard/dashboard.json)
 
-![Pipeline de telemetría simulado](../assets/05-lunar-telemetry-pipeline.png)
-
 ## Qué problema aborda
 
 Simular la generación, transmisión y monitorización de telemetría entre un rover y un centro de control. Los productores emulan movilidad, soporte vital y comunicaciones, con ráfagas de datos y señales degradadas.

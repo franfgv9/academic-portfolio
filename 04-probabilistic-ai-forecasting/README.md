@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [Notebook](code/probabilistic_forecasting.ipynb) · [Informe](Final_Report_Francisco_Gil.pdf) · [Notebook en PDF](code/probabilistic_forecasting.pdf)
 
-![Probabilidades, incertidumbre y decisiones](../assets/04-probabilistic-ai-forecasting.png)
-
 ## Qué problema aborda
 
 Estimar las probabilidades de victoria local, empate y victoria visitante en partidos de la liga portuguesa. El proyecto estudia la incertidumbre, la calidad de las probabilidades y cuándo conviene abstenerse de emitir una predicción.

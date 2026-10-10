@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [CNN y transfer learning](01-cnn-and-transfer-learning/) · [Autoencoders y YOLO](02-autoencoders-and-yolo/) · [Reinforcement Learning](03-reinforcement-learning/)
 
-![Proyectos de Deep Learning](../assets/06-applied-deep-learning.png)
-
 Tres trabajos académicos de Applied Deep Learning realizados durante mi estancia en la Universidade de Coimbra, en equipo con **Minnie**. Se publica el trabajo completo y se distingue quién desarrolló cada parte.
 
 ## Contribuciones del equipo

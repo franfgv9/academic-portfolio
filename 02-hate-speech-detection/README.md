@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [ML clásico](code/01_classical_ml_tfidf_glove.ipynb) · [LLM locales](code/02_llm_ollama_langchain.ipynb) · [Informe ML](reports/milestone_2_ML_report.pdf) · [Informe LLM](reports/milestone_3_LLM_report.pdf)
 
-![Comparación de enfoques de NLP](../assets/02-hate-speech-detection.png)
-
 ## Qué problema aborda
 
 Clasificación binaria de comentarios de Instagram en portugués brasileño como ofensivos o no ofensivos, utilizando HateBR. El objetivo es comparar representaciones y modelos, y estudiar sus compromisos entre rendimiento, recursos y validez de las respuestas.

@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [Notebook](code/final_proyect.ipynb) · [Informe](report_proyect.pdf) · [Presentación](Power_Point.odp)
 
-![Análisis del ecosistema de IA](../assets/01-ai-ecosystem-spain.png)
-
 ## Qué problema aborda
 
 ¿Cómo se sitúa España en el ecosistema mundial de IA y qué diferencias aparecen frente a países de referencia? El trabajo conecta los indicadores del Global AI Index con información de PIB y población para estudiar patrones, brechas y prioridades de inversión.

@@ -4,8 +4,6 @@
 
 [← Portfolio](../README.md) · [Notebook](code/FRANCISCO_GIL.ipynb) · [Informe IEEE](IEEE_report_forecasting.pdf) · [Notebook en PDF](code/FRANCISCO_GIL.pdf)
 
-![Evaluación temporal del IPC](../assets/03-time-series-forecasting.png)
-
 ## Qué problema aborda
 
 Analizar y predecir el IPC mensual de Chile, comparando enfoques sencillos y modelos temporales. El informe estudia **392 observaciones de enero de 1990 a agosto de 2022**, además de una comparación multivariante con México, Colombia y Brasil.

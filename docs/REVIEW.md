@@ -3,7 +3,7 @@
 - Origen: commit `e9d1b729b9376600072a525f146d254621f06c25` de `franfgv9/data-science-portfolio`.
 - 65 archivos del origen comprobados por SHA-256.
 - 55 archivos conservados byte a byte; 10 README reescritos.
-- 85 referencias Markdown revisadas; todos los destinos locales existen.
+- 72 referencias Markdown revisadas; todos los destinos locales existen.
 - Ocho PNG generados desde SVG y validados.
 - Portada Markdown renderizada y revisada visualmente, junto con las imágenes de presentación.
 - Notebooks comprobados como JSON nbformat 4, sin ejecutar sus celdas.
