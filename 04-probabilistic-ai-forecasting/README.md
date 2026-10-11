@@ -10,7 +10,7 @@ Estimar las probabilidades de victoria local, empate y victoria visitante en par
 
 ## Mi contribución
 
-Trabajo individual documentado en el informe de Francisco Gil: exploración de datos, redes bayesianas manuales y aprendidas, inferencia, clasificación probabilística, calibración, optimización y evaluación de estrategias de decisión. Se conservan también los scripts auxiliares de preparación publicados con el proyecto.
+Proyecto individual: exploración de datos, redes bayesianas manuales y aprendidas, inferencia, clasificación probabilística, calibración, optimización y evaluación de estrategias de decisión. Incluye el notebook, el informe y los scripts auxiliares de preparación de datos.
 
 ## Metodología
 

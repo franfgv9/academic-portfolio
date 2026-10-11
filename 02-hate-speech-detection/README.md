@@ -10,7 +10,7 @@ Clasificación binaria de comentarios de Instagram en portugués brasileño como
 
 ## Autoría
 
-Trabajo académico compartido con **Gastón Fernández Rodríguez**, identificado junto a Francisco Gil Valverde en el informe de ML. Los resultados se atribuyen al proyecto del equipo; el material publicado no especifica un reparto individual de tareas.
+Trabajo académico en equipo con **Gastón Fernández Rodríguez**. Los resultados corresponden al proyecto conjunto; los informes no detallan un reparto individual de tareas.
 
 ## Metodología
 

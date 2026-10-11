@@ -21,7 +21,7 @@ Se diseñó una red con tres bloques convolucionales de filtros crecientes, Batc
 | Mean Class Accuracy | 86,18% |
 | F1 | 86,16% |
 
-El informe documenta una partición de 40.000 imágenes de entrenamiento, 10.000 de validación y 10.000 de test. Las cifras corresponden a la evaluación registrada del experimento; no se han vuelto a calcular durante esta preparación.
+El experimento utiliza 40.000 imágenes de entrenamiento, 10.000 de validación y 10.000 de test. Las cifras corresponden a la evaluación registrada en el informe.
 
 ## Bloque de Minnie: transfer learning y middle fusion
 

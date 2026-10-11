@@ -43,7 +43,7 @@ Este código adapta el formato a la interfaz de Gensim usada por las celdas post
 
 ## Fichero histórico del experimento
 
-El archivo conservado por Fran es `glove_s100.txt`, recibido durante la asignatura de PLN de Coimbra. El material de la práctica identifica el modelo como GloVe de NILC, distribuido entonces mediante UCStudent.
+El experimento original utiliza `glove_s100.txt`, el modelo GloVe de NILC distribuido mediante UCStudent en la asignatura de PLN de Coimbra.
 
 | Propiedad comprobada | Valor |
 |---|---|

@@ -10,7 +10,7 @@ Simular la generación, transmisión y monitorización de telemetría entre un r
 
 ## Autoría y alcance
 
-Proyecto académico de sistemas e infraestructura, publicado por Francisco Gil Valverde. El informe disponible documenta las decisiones de arquitectura sin un reparto nominal de tareas. Esta presentación describe el sistema del proyecto y evita atribuir componentes concretos en exclusiva.
+Proyecto académico de sistemas e infraestructura presentado por Francisco Gil Valverde. El informe describe las decisiones de arquitectura, pero no detalla el reparto individual de tareas.
 
 ## Arquitectura
 
@@ -52,6 +52,6 @@ docker compose ps
 
 InfluxDB publica su interfaz en `http://localhost:8086`. Revisa `docker compose logs telegraf-gateway` si no llegan datos. Las consultas de `flux/` y el dashboard se importan/configuran en InfluxDB; no se presentan como aprovisionamiento automático.
 
-Las imágenes del Compose original usan etiquetas `latest`: las versiones y la compatibilidad deben comprobarse al ejecutar. La revisión del portfolio no incluye una ejecución integral del stack. [Guía general](../docs/RUNNING.md).
+Las imágenes del Compose usan etiquetas `latest`: comprueba las versiones y su compatibilidad al ejecutar. La configuración de Compose se ha validado; la ejecución integral del stack no está verificada. [Guía general](../docs/RUNNING.md).
 
 **Stack:** Python, Kafka, Telegraf, InfluxDB, Flux y Docker Compose.

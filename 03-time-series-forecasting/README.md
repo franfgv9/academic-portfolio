@@ -10,7 +10,7 @@ Analizar y predecir el IPC mensual de Chile, comparando enfoques sencillos y mod
 
 ## Mi contribución
 
-Trabajo individual: preparación de la serie, análisis descriptivo y estacionariedad, modelado, comparación de previsiones, exploración multivariante e informe. El informe está firmado por **Francisco Gil Valverde**.
+Proyecto individual de **Francisco Gil Valverde**: preparación de la serie, análisis descriptivo y estacionariedad, modelado, comparación de previsiones, exploración multivariante e informe.
 
 ## Metodología
 

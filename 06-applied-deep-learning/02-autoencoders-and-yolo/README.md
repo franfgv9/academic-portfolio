@@ -8,7 +8,7 @@
 
 - **Fran:** implementación y entrenamiento de AE, VAE y DAE sobre Kuzushiji-MNIST; reconstrucción, denoising y análisis del espacio latente.
 - **Minnie:** dataset y anotación de personas, pipeline de detección y comparación de YOLOv8/9/10.
-- **Evaluación complementaria de los encoders:** trabajo del equipo; el README de origen atribuye a Minnie la incorporación del clasificador sobre encoders congelados.
+- **Evaluación complementaria de los encoders:** trabajo compartido, con la incorporación del clasificador sobre encoders congelados por Minnie.
 
 ## Mi bloque: AE, VAE y DAE
 
@@ -22,7 +22,7 @@ Anotación asistida con Roboflow y comparación de modelos YOLO entrenados desde
 
 ## Cómo explorar y ejecutar
 
-El notebook usa Colab/Drive. **Los pesos originales de AE, VAE, DAE y los clasificadores sobre encoders no están disponibles:** no se han localizado en Deep-Learning ni en las búsquedas y carpetas académicas revisadas del Drive de Fran. No se proporciona un enlace de descarga. Para ejecutar las celdas de evaluación hay que generar nuevos pesos mediante entrenamiento con KMNIST o disponer de esos archivos por otra vía.
+El notebook usa Colab/Drive. **Los pesos originales de AE, VAE, DAE y los clasificadores sobre encoders no están disponibles y no tienen un enlace de descarga.** Para ejecutar las celdas de evaluación hay que generar nuevos pesos mediante entrenamiento con KMNIST o disponer de esos archivos por otra vía.
 
 **El dataset de imágenes y los checkpoints YOLO de Minnie tampoco están disponibles en este portfolio.** Se conserva [labels.zip](labels.zip), pero las etiquetas solas no permiten entrenar ni evaluar. El notebook contiene un enlace histórico externo al dataset; no está verificado como descarga pública utilizable.
 

@@ -1,6 +1,6 @@
 # Cómo explorar y ejecutar los proyectos
 
-Los notebooks, PDFs y presentaciones conservan el material académico de origen. Se han mejorado las páginas de presentación; no se han reescrito las celdas ni reentrenado los modelos.
+Esta guía reúne los requisitos para explorar los proyectos y ejecutarlos en un entorno local. Cada README detalla los datos, las dependencias y los recursos de su proyecto.
 
 ## Lectura sin entrenamiento
 
@@ -8,7 +8,7 @@ Empieza por el README de cada carpeta, abre sus notebooks con las salidas guarda
 
 ## Entornos Python
 
-Usa un entorno separado por proyecto. Los archivos `requirements.txt` identifican dependencias a partir de los imports, pero **no son un lockfile validado del entorno histórico**. Algunas APIs pueden necesitar una versión compatible con las celdas originales.
+Usa un entorno separado por proyecto. Los archivos `requirements.txt` enumeran las dependencias, pero **no fijan un entorno completo validado**. Algunas APIs pueden necesitar una versión compatible con las celdas del notebook.
 
 Ejemplo desde la raíz, para el proyecto de series temporales, en PowerShell:
 
@@ -39,8 +39,8 @@ Antes de ejecutar, ajusta las rutas que se describen en el README de cada proyec
 
 Consulta el [inventario de recursos de Deep Learning y las adaptaciones locales](../06-applied-deep-learning/RESOURCES.md) antes de ejecutar sus notebooks. Los bloques que cargan archivos no disponibles no pueden evaluarse con los modelos originales. Algunos pueden reentrenarse con datasets descargables, generando nuevos checkpoints.
 
-No se ha reproducido íntegramente el entrenamiento ni la evaluación de los modelos. Las cifras se presentan como resultados del experimento académico publicado. La disponibilidad de los recursos externos puede cambiar.
+Las métricas publicadas corresponden a los experimentos documentados en los informes. La ejecución completa de todos los proyectos no está validada en un único entorno local; los resultados de un nuevo entrenamiento pueden variar. La disponibilidad de los recursos externos puede cambiar.
 
 ## Créditos
 
-Los notebooks conservan el trabajo compartido y los recursos del curso. Los repositorios de entornos de RL pertenecen a sus autores originales, identificados por los enlaces de las celdas. Consulta [procedencia](PROVENANCE.md) y el reparto de contribuciones en las páginas de proyecto.
+Consulta la [autoría y las fuentes](CREDITS.md), junto con el reparto de contribuciones de cada proyecto. Los entornos de RL y demás recursos externos mantienen la atribución a sus autores originales.

@@ -1,20 +1,20 @@
 # Recursos externos y ejecución local
 
-Estado revisado el 11 de octubre de 2026. El código y los informes permiten estudiar los tres trabajos. **Los checkpoints recuperados de CNN y conducción están disponibles en la [Release de recursos](https://github.com/franfgv9/academic-portfolio/releases/tag/dl-resources-v1); el [parche de conducción](03-reinforcement-learning/patches/) está incluido junto al código.** Se publican los archivos originales comprobados, con sus nombres y manifiestos SHA-256.
+**Descargas disponibles:** checkpoints de CNN y conducción en la [Release de recursos](https://github.com/franfgv9/academic-portfolio/releases/tag/dl-resources-v1) y [parche de conducción](03-reinforcement-learning/patches/) junto al código. Los paquetes incluyen los nombres originales de los archivos y manifiestos SHA-256 para verificar su integridad.
 
 ## Disponibilidad por bloque
 
 | Bloque | Recursos del experimento | Disponibilidad para un visitante |
 |---|---|---|
 | CNN de Fran, CIFAR-10 | Cuatro `arquitectura_base_CIFAR_10_best_state_c1…c4.pt` y cuatro `arquitectura_base_CIFAR_10_loss_history_c1…c4.pt` | [Descargar CNN e historiales](https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/cnn-checkpoints.zip) |
-| Transfer learning y middle fusion, Minnie | `best_resnet18_scratch.pth`, `best_resnet18_pretrained.pth`, `best_mobilenetv3s_scratch.pth`, `best_mobilenetv3s_pretrained.pth`, `best_middlefusion.pth` | No disponibles en este portfolio; Fran no dispone de estos pesos originales |
-| AE, VAE y DAE, Fran | `ae.pth`, `vae.pth`, `dae.pth` | No localizados en el repositorio Deep-Learning ni en las búsquedas y carpetas académicas revisadas del Drive de Fran; sin descarga pública proporcionada |
-| Clasificación sobre encoders, equipo | `ae_encoder_classifier.pth`, `vae_encoder_classifier.pth`, `dae_encoder_classifier.pth` | No localizados en esas fuentes; sin descarga pública proporcionada |
+| Transfer learning y middle fusion, Minnie | `best_resnet18_scratch.pth`, `best_resnet18_pretrained.pth`, `best_mobilenetv3s_scratch.pth`, `best_mobilenetv3s_pretrained.pth`, `best_middlefusion.pth` | No disponibles; sin descarga pública proporcionada |
+| AE, VAE y DAE, Fran | `ae.pth`, `vae.pth`, `dae.pth` | No disponibles; sin descarga pública proporcionada |
+| Clasificación sobre encoders, equipo | `ae_encoder_classifier.pth`, `vae_encoder_classifier.pth`, `dae_encoder_classifier.pth` | No disponibles; sin descarga pública proporcionada |
 | YOLO, Minnie | Fotogramas del dataset original y `best.pt` de cada detector entrenado | No disponibles como recursos reproducibles en este portfolio. Solo se conserva `labels.zip`; el enlace histórico del notebook no está verificado como descarga pública |
 | Conducción, Fran | `car_racing_obstacles.py`, `BestCarRacing_bestAvg20_model_4_generalizado.pth`, `BestCarRacing_best_model.pth` | [Descargar checkpoints](https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/carracing-checkpoints.zip) · [Parche e instalación](03-reinforcement-learning/patches/) |
-| Navegación de robot, Minnie | Checkpoints `part2_dqn_qnet.pt`, `part2_double_qnet.pt`, `part2_double_dueling_qnet.pt` y recursos del experimento | No disponibles en este portfolio; Fran no dispone de los archivos originales |
+| Navegación de robot, Minnie | Checkpoints `part2_dqn_qnet.pt`, `part2_double_qnet.pt`, `part2_double_dueling_qnet.pt` y recursos del experimento | No disponibles; sin descarga pública proporcionada |
 
-Las búsquedas por nombre de autoencoders y clasificadores devolvieron referencias en documentos, pero no los archivos de pesos. Se revisaron también la carpeta de modelos entrenados, la del proyecto 2 y sus entregables finales. La ausencia en las fuentes revisadas no implica que no exista una copia en otra ubicación.
+Los recursos marcados como no disponibles no se incluyen en el portfolio ni cuentan con una descarga pública verificada. Las celdas que cargan esos archivos necesitan nuevos pesos obtenidos mediante entrenamiento o una copia de los originales.
 
 ## Descargar y colocar los recursos publicados
 

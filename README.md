@@ -61,4 +61,4 @@ Busco **prácticas curriculares en ML, IA o Data Science**, principalmente en Mu
 
 <sub>Seis proyectos académicos con código, informes, resultados y créditos en sus páginas.</sub>
 
-[Créditos](docs/PROVENANCE.md) · [Guía de ejecución](docs/RUNNING.md)
+[Autoría y fuentes](docs/CREDITS.md) · [Guía de ejecución](docs/RUNNING.md)

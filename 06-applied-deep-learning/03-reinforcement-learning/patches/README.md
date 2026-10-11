@@ -1,6 +1,6 @@
 # Parche del entorno de conducción
 
-[car_racing_obstacles.py](car_racing_obstacles.py) es el archivo modificado utilizado por Fran en su proyecto académico. Se conserva byte a byte desde la copia recuperada de su Drive.
+[car_racing_obstacles.py](car_racing_obstacles.py) es el parche utilizado en el proyecto académico de conducción. Su huella SHA-256 permite comprobar la integridad del archivo.
 
 ## Procedencia y atribución
 
@@ -25,4 +25,4 @@ python -m pip install -e ./external/CarRacingWObstacles
 
 Si ya tienes una copia de ese entorno, aplica el parche sobre ella sin repetir el clon. En una copia local del notebook, sustituye la ruta de `PATCH_FILE` por la ruta absoluta a este archivo y omite el montaje de Drive y la instalación de Colab que hayas realizado localmente. Conserva el registro del entorno que aparece en sus celdas.
 
-La copia del parche se ha comprobado por SHA-256 y su sintaxis Python es válida. Las pruebas de checkpoints verificaron las redes, sin ejecutar episodios de este entorno. Consulta [recursos y ejecución local](../../RESOURCES.md) para descargar pesos y configurar la inferencia.
+El parche tiene sintaxis Python válida. Las pruebas de checkpoints verificaron las redes, sin ejecutar episodios de este entorno. Consulta [recursos y ejecución local](../../RESOURCES.md) para descargar pesos y configurar la inferencia.
