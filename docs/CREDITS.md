@@ -10,7 +10,7 @@ Este portfolio reúne seis proyectos académicos de ciencia de datos e inteligen
 | [Detección de lenguaje ofensivo](../02-hate-speech-detection/) | Francisco Gil Valverde y Gastón Fernández Rodríguez |
 | [Forecasting del IPC de Chile](../03-time-series-forecasting/) | Francisco Gil Valverde |
 | [Forecasting probabilístico de fútbol](../04-probabilistic-ai-forecasting/) | Francisco Gil Valverde; los scripts auxiliares mantienen su procedencia |
-| [Telemetría lunar](../05-lunar-telemetry-pipeline/) | Proyecto académico presentado por Francisco Gil Valverde; el informe no detalla el reparto individual de tareas |
+| [Telemetría lunar](../05-lunar-telemetry-pipeline/) | Proyecto académico presentado por Francisco Gil Valverde |
 | [Deep Learning y Reinforcement Learning](../06-applied-deep-learning/) | Francisco Gil Valverde y Minnie; contribuciones detalladas por bloque |
 
 En Deep Learning, mi contribución comprende la CNN sobre CIFAR-10, los autoencoders AE/VAE/DAE y el agente visual de conducción. Minnie desarrolló transfer learning y middle fusion, detección con YOLO y navegación del robot. La clasificación sobre encoders forma parte de la evaluación compartida, con la contribución de Minnie identificada en su proyecto.
