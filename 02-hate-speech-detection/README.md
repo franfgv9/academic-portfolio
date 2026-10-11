@@ -37,7 +37,7 @@ Preparación de texto, comparación de representaciones, selección de modelos y
 - `data/HateBR.csv`: dataset conservado.
 - `reports/`: informes y presentaciones de los hitos publicados.
 
-El notebook de ML usa Google Colab/Drive y requiere el fichero externo `glove_s100.txt`, que no está incluido. Necesita también el modelo de spaCy `pt_core_news_sm` y los recursos de NLTK utilizados en sus celdas.
+El notebook de ML usa Google Colab/Drive y requiere el fichero externo `glove_s100.txt`, que no está incluido. Consulta [la descarga de GloVe y la adaptación de formato](GLOVE.md): la distribución pública actual de NILC usa Safetensors y necesita adaptar la celda de carga. Necesita también el modelo de spaCy `pt_core_news_sm` y los recursos de NLTK utilizados en sus celdas.
 
 Para utilizar el CSV local, sustituye la variable `url` por `../data/HateBR.csv`, ejecutando desde `code/`. El notebook de LLM requiere un servicio de Ollama disponible y los modelos indicados en sus celdas. [Dependencias](requirements.txt) · [Guía general](../docs/RUNNING.md).
 

@@ -25,7 +25,7 @@ Antes de ejecutar, ajusta las rutas que se describen en el README de cada proyec
 | Proyecto | Recurso o adaptación necesaria |
 |---|---|
 | Ecosistema de IA | Ajustar tres rutas a los CSV incluidos |
-| NLP clásico | Colab/Drive o adaptación local; `glove_s100.txt`, modelo portugués de spaCy y recursos NLTK |
+| NLP clásico | Colab/Drive o adaptación local; [descarga y formato de GloVe](../02-hate-speech-detection/GLOVE.md), modelo portugués de spaCy y recursos NLTK |
 | LLM locales | Servicio de Ollama, modelos Llama/Qwen y recursos de memoria suficientes |
 | Series temporales | Ajustar dos rutas al CSV; generar particiones y resultados intermedios en orden |
 | Fútbol | Ajustar ruta al dataset; compatibilidad con la API de pgmpy; Graphviz para gráficos |
