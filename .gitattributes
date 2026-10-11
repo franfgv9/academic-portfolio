@@ -1,0 +1,2 @@
+# Preserve the recovered patch's exact bytes and published SHA-256 on Windows.
+06-applied-deep-learning/03-reinforcement-learning/patches/car_racing_obstacles.py -text

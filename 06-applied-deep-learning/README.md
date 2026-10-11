@@ -42,7 +42,7 @@ El bloque de Minnie compara agentes para navegación de un robot en `IndoorRobot
 
 ## Recursos para volver a ejecutarlo
 
-Los notebooks usan Google Colab, Drive, datasets descargables y checkpoints. Los pesos de CNN de Fran y dos de conducción, junto con el parche del entorno, se han recuperado de Drive privado, pero **todavía no tienen una descarga pública**. Los pesos originales de autoencoders y clasificadores no se han localizado; los archivos de los experimentos de Minnie no están disponibles en este portfolio.
+Los notebooks usan Google Colab, Drive, datasets descargables y checkpoints. **Los cuatro checkpoints de CNN de Fran, sus historiales y dos checkpoints de conducción se pueden descargar desde la [Release de recursos](https://github.com/franfgv9/academic-portfolio/releases/tag/dl-resources-v1).** El [parche del entorno de conducción](03-reinforcement-learning/patches/) está incluido junto al código. Los pesos originales de autoencoders y clasificadores no se han localizado; los archivos de los experimentos de Minnie no están disponibles en este portfolio.
 
 Consulta el [inventario de recursos y la guía para ejecución local](RESOURCES.md). Los informes y salidas permiten revisar el trabajo; la evaluación con los modelos originales requiere sus archivos. Donde el dataset es descargable, se pueden generar nuevos pesos mediante entrenamiento.
 

@@ -29,11 +29,11 @@ Antes de ejecutar, ajusta las rutas que se describen en el README de cada proyec
 | LLM locales | Servicio de Ollama, modelos Llama/Qwen y recursos de memoria suficientes |
 | Series temporales | Ajustar dos rutas al CSV; generar particiones y resultados intermedios en orden |
 | Fútbol | Ajustar ruta al dataset; compatibilidad con la API de pgmpy; Graphviz para gráficos |
-| CNN de Fran | CIFAR-10 descargable; pesos e historiales recuperados en Drive privado, todavía sin descarga pública |
+| CNN de Fran | CIFAR-10 descargable; [pesos e historiales publicados](../06-applied-deep-learning/RESOURCES.md#descargar-y-colocar-los-recursos-publicados) |
 | Transfer learning de Minnie | STL-10 descargable; sus checkpoints finales no están disponibles |
 | Autoencoders y clasificación sobre encoders | KMNIST descargable; pesos originales no localizados y sin enlace de descarga; es necesario reentrenar para generar nuevos pesos |
 | YOLO de Minnie | `labels.zip` incluido; imágenes originales y pesos entrenados no disponibles en el portfolio |
-| Conducción RL de Fran | Entorno externo; parche y dos checkpoints recuperados en Drive privado, todavía sin descarga pública |
+| Conducción RL de Fran | Entorno externo; [parche publicado](../06-applied-deep-learning/03-reinforcement-learning/patches/) y [dos checkpoints descargables](../06-applied-deep-learning/RESOURCES.md#descargar-y-colocar-los-recursos-publicados) |
 | Navegación de robot de Minnie | Entorno externo; checkpoints originales no disponibles |
 | Telemetría | Docker activo, variables `.env`, imágenes compatibles, importación de dashboard/consultas |
 

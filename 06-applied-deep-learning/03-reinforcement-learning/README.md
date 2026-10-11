@@ -34,7 +34,7 @@ Comparación de agentes DQN y Double Dueling DQN con representación vectorial d
 
 ## Recursos necesarios para reproducirlo
 
-El notebook se preparó para Colab y utiliza los entornos externos enlazados en sus celdas. Se han recuperado de Drive privado el parche `car_racing_obstacles.py`, `BestCarRacing_bestAvg20_model_4_generalizado.pth` y `BestCarRacing_best_model.pth`. **Todavía no se proporciona una descarga pública de esos archivos.** El nombre del checkpoint generalizado difiere de la ruta de evaluación del notebook y debe configurarse expresamente.
+El notebook se preparó para Colab y utiliza los entornos externos enlazados en sus celdas. **[Descarga los dos checkpoints de conducción](https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/carracing-checkpoints.zip)** y consulta el [parche `car_racing_obstacles.py` y su instalación](patches/). Se conservan `BestCarRacing_bestAvg20_model_4_generalizado.pth` y `BestCarRacing_best_model.pth` con sus nombres originales. El nombre del checkpoint generalizado difiere de la ruta de evaluación del notebook y debe configurarse expresamente.
 
 **Los checkpoints originales del robot de Minnie no están disponibles** en este portfolio. Sin los recursos correspondientes puede revisarse el código, las salidas, el vídeo y el informe, pero no evaluarse directamente los agentes originales. Para un entrenamiento nuevo hay que configurar el entorno, el parche cuando corresponda y las rutas locales. [Recursos y comprobación de compatibilidad](../RESOURCES.md) · [Guía general](../../docs/RUNNING.md).
 

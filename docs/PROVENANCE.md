@@ -41,3 +41,11 @@ El repositorio original no contiene una licencia general. Esta copia no añade u
 ## Verificación
 
 `source-manifest.json` registra los hashes de los archivos del origen. Las comprobaciones locales se guardan en `REVIEW.md`. El hecho de conservar salidas o informes no equivale a haber repetido los experimentos.
+
+## Recursos de Deep Learning recuperados
+
+El 11 de octubre de 2026 se recuperaron del Drive académico de Fran cuatro checkpoints de CNN, cuatro historiales y dos checkpoints de conducción. Se publican como descargas en la [Release de recursos](https://github.com/franfgv9/academic-portfolio/releases/tag/dl-resources-v1), con manifiestos SHA-256 e informe de compatibilidad estructural. Los notebooks del origen se conservan sin modificaciones.
+
+Se añade el archivo modificado [car_racing_obstacles.py](../06-applied-deep-learning/03-reinforcement-learning/patches/car_racing_obstacles.py), byte a byte desde la copia de Fran, con atribución al entorno externo `luisgarrote/CarRacingWObstacles` y sus componentes de base. Las adaptaciones académicas no implican autoría del entorno completo. Consulta los [créditos e instrucciones del parche](../06-applied-deep-learning/03-reinforcement-learning/patches/).
+
+Las descargas no incluyen los pesos originales que no se han localizado ni los archivos de Minnie que Fran no conserva. Su ausencia se documenta en [RESOURCES.md](../06-applied-deep-learning/RESOURCES.md).

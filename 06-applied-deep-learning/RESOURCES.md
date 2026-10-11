@@ -1,20 +1,36 @@
 # Recursos externos y ejecución local
 
-Estado revisado el 11 de octubre de 2026. El código y los informes permiten estudiar los tres trabajos. **El portfolio no ofrece todavía una descarga pública de los checkpoints originales ni del parche de conducción.** Los archivos recuperados del Drive privado de Fran se han descargado únicamente para su comprobación local.
+Estado revisado el 11 de octubre de 2026. El código y los informes permiten estudiar los tres trabajos. **Los checkpoints recuperados de CNN y conducción están disponibles en la [Release de recursos](https://github.com/franfgv9/academic-portfolio/releases/tag/dl-resources-v1); el [parche de conducción](03-reinforcement-learning/patches/) está incluido junto al código.** Se publican los archivos originales comprobados, con sus nombres y manifiestos SHA-256.
 
 ## Disponibilidad por bloque
 
 | Bloque | Recursos del experimento | Disponibilidad para un visitante |
 |---|---|---|
-| CNN de Fran, CIFAR-10 | Cuatro `arquitectura_base_CIFAR_10_best_state_c1…c4.pt` y cuatro `arquitectura_base_CIFAR_10_loss_history_c1…c4.pt` | Recuperados del Drive privado; pendientes de publicación como descargas |
+| CNN de Fran, CIFAR-10 | Cuatro `arquitectura_base_CIFAR_10_best_state_c1…c4.pt` y cuatro `arquitectura_base_CIFAR_10_loss_history_c1…c4.pt` | [Descargar CNN e historiales](https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/cnn-checkpoints.zip) |
 | Transfer learning y middle fusion, Minnie | `best_resnet18_scratch.pth`, `best_resnet18_pretrained.pth`, `best_mobilenetv3s_scratch.pth`, `best_mobilenetv3s_pretrained.pth`, `best_middlefusion.pth` | No disponibles en este portfolio; Fran no dispone de estos pesos originales |
 | AE, VAE y DAE, Fran | `ae.pth`, `vae.pth`, `dae.pth` | No localizados en el repositorio Deep-Learning ni en las búsquedas y carpetas académicas revisadas del Drive de Fran; sin descarga pública proporcionada |
 | Clasificación sobre encoders, equipo | `ae_encoder_classifier.pth`, `vae_encoder_classifier.pth`, `dae_encoder_classifier.pth` | No localizados en esas fuentes; sin descarga pública proporcionada |
 | YOLO, Minnie | Fotogramas del dataset original y `best.pt` de cada detector entrenado | No disponibles como recursos reproducibles en este portfolio. Solo se conserva `labels.zip`; el enlace histórico del notebook no está verificado como descarga pública |
-| Conducción, Fran | `car_racing_obstacles.py`, `BestCarRacing_bestAvg20_model_4_generalizado.pth`, `BestCarRacing_best_model.pth` | Recuperados del Drive privado; pendientes de publicación como descargas |
+| Conducción, Fran | `car_racing_obstacles.py`, `BestCarRacing_bestAvg20_model_4_generalizado.pth`, `BestCarRacing_best_model.pth` | [Descargar checkpoints](https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/carracing-checkpoints.zip) · [Parche e instalación](03-reinforcement-learning/patches/) |
 | Navegación de robot, Minnie | Checkpoints `part2_dqn_qnet.pt`, `part2_double_qnet.pt`, `part2_double_dueling_qnet.pt` y recursos del experimento | No disponibles en este portfolio; Fran no dispone de los archivos originales |
 
 Las búsquedas por nombre de autoencoders y clasificadores devolvieron referencias en documentos, pero no los archivos de pesos. Se revisaron también la carpeta de modelos entrenados, la del proyecto 2 y sus entregables finales. La ausencia en las fuentes revisadas no implica que no exista una copia en otra ubicación.
+
+## Descargar y colocar los recursos publicados
+
+Desde la raíz de una copia local del portfolio, en PowerShell:
+
+```powershell
+New-Item -ItemType Directory -Force -Path checkpoints | Out-Null
+Invoke-WebRequest -Uri "https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/cnn-checkpoints.zip" -OutFile "checkpoints/cnn-checkpoints.zip"
+Invoke-WebRequest -Uri "https://github.com/franfgv9/academic-portfolio/releases/download/dl-resources-v1/carracing-checkpoints.zip" -OutFile "checkpoints/carracing-checkpoints.zip"
+Expand-Archive -LiteralPath "checkpoints/cnn-checkpoints.zip" -DestinationPath checkpoints
+Expand-Archive -LiteralPath "checkpoints/carracing-checkpoints.zip" -DestinationPath checkpoints
+```
+
+Los diez archivos quedarán juntos en `checkpoints/`. No necesitan acceso a Drive ni iniciar sesión en GitHub. Cada ZIP contiene un manifiesto con los nombres, tamaños, hashes y resultados de compatibilidad de sus archivos. El [informe conjunto](checkpoint-compatibility.json) permite contrastar las huellas. La carpeta local de checkpoints se excluye del historial Git.
+
+Para conducción, aplica además el [parche y la instalación del entorno](03-reinforcement-learning/patches/). Descargar los pesos no configura automáticamente las dependencias ni las rutas del notebook.
 
 ## Qué se puede ejecutar sin los archivos originales
 
@@ -22,7 +38,7 @@ Las búsquedas por nombre de autoencoders y clasificadores devolvieron referenci
 - **Transfer learning:** STL-10 y los pesos genéricos preentrenados de Torchvision son descargables; los modelos ajustados de Minnie no están disponibles. Un modelo genérico no sustituye su checkpoint final.
 - **Autoencoders y clasificadores:** KMNIST se descarga con Torchvision. Se pueden entrenar los autoencoders y después los clasificadores para generar nuevos `.pth`; las celdas que cargan los pesos originales requieren esos archivos. Las visualizaciones de los modelos históricos no pueden repetirse directamente sin ellos.
 - **YOLO:** las etiquetas por sí solas no permiten entrenar ni evaluar. Faltan las imágenes del dataset y los checkpoints de los detectores originales. Hay que proporcionar un dataset compatible o diseñar un experimento nuevo.
-- **Conducción:** para ejecutar el agente recuperado se necesitan el parche, el entorno externo y un checkpoint compatible. Mientras no haya descarga pública de esos recursos, un visitante solo dispone del código, el informe y el vídeo.
+- **Conducción:** para ejecutar el agente recuperado se necesitan el parche publicado, el entorno externo y un checkpoint compatible de la Release. Conserva la configuración de entrada y acciones y adapta la ruta de evaluación al archivo elegido.
 - **Robot:** el código permite estudiar o preparar un nuevo entrenamiento con el entorno externo. La evaluación de los agentes originales requiere checkpoints que no se proporcionan.
 
 Reentrenar genera un experimento nuevo: las semillas, versiones, hardware y particiones pueden afectar a los resultados. Las métricas históricas del informe no se presentan como resultados nuevamente reproducidos.
