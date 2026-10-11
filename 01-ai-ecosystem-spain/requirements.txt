@@ -1,4 +1,4 @@
-# Dependencias identificadas en el código; versiones originales no registradas.
+# Dependencias identificadas en el código
 # Google Colab, Ollama y los entornos de RL requieren configuración adicional.
 jupyterlab
 numpy
