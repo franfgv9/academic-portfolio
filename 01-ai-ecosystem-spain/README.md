@@ -10,7 +10,7 @@
 
 ## Autoría
 
-El informe publicado recoge a **Francisco Gil Valverde y Gastón Fernández Rodríguez**. Se conserva el trabajo completo del equipo; las conclusiones y visualizaciones se presentan como resultados del proyecto compartido. El material publicado no especifica un reparto por tarea.
+El informe publicado recoge a **Francisco Gil Valverde y Gastón Fernández Rodríguez**. Se conserva el trabajo completo del equipo; las conclusiones y visualizaciones se presentan como resultados del proyecto compartido.
 
 ## Metodología
 
