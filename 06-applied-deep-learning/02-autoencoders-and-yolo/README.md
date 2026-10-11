@@ -22,6 +22,8 @@ Anotación asistida con Roboflow y comparación de modelos YOLO entrenados desde
 
 ## Cómo explorar y ejecutar
 
-El notebook usa Colab/Drive. Los checkpoints de autoencoders y clasificadores no están incluidos. La parte YOLO descarga un dataset externo y utiliza [labels.zip](labels.zip), conservado en esta carpeta. El acceso al fichero externo debe comprobarse al ejecutar; la copia no contiene todos los fotogramas originales.
+El notebook usa Colab/Drive. **Los pesos originales de AE, VAE, DAE y los clasificadores sobre encoders no están disponibles:** no se han localizado en Deep-Learning ni en las búsquedas y carpetas académicas revisadas del Drive de Fran. No se proporciona un enlace de descarga. Para ejecutar las celdas de evaluación hay que generar nuevos pesos mediante entrenamiento con KMNIST o disponer de esos archivos por otra vía.
 
-Configura las rutas y ejecuta cada parte en orden. Las dependencias de Python se describen en [requirements.txt](../requirements.txt); los recursos descargables y los pesos requieren configuración adicional. [Guía general](../../docs/RUNNING.md).
+**El dataset de imágenes y los checkpoints YOLO de Minnie tampoco están disponibles en este portfolio.** Se conserva [labels.zip](labels.zip), pero las etiquetas solas no permiten entrenar ni evaluar. El notebook contiene un enlace histórico externo al dataset; no está verificado como descarga pública utilizable.
+
+Configura las rutas y ejecuta cada parte en orden. Las dependencias de Python se describen en [requirements.txt](../requirements.txt). [Inventario de recursos y ejecución local](../RESOURCES.md) · [Guía general](../../docs/RUNNING.md).

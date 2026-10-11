@@ -29,6 +29,10 @@ Comparación de modelos desde cero y con pesos preentrenados, seguida de fusión
 
 ## Cómo explorar y ejecutar
 
-El notebook original usa Colab y guarda/carga checkpoints en Drive. Los pesos referenciados no están incluidos. Para repetir el entrenamiento, instala las dependencias del [directorio de Deep Learning](../requirements.txt), configura el almacenamiento y ejecuta cada bloque en orden. CIFAR-10 y STL-10 se descargan mediante Torchvision. [Guía general](../../docs/RUNNING.md).
+El notebook original usa Colab y guarda/carga checkpoints en Drive. Se han recuperado los cuatro checkpoints de la CNN de Fran y sus historiales de pérdida; permanecen en almacenamiento privado y **todavía no existe una descarga pública**. Los checkpoints de transfer learning y middle fusion de Minnie **no están disponibles** en este portfolio.
+
+Para generar nuevos pesos, instala las dependencias del [directorio de Deep Learning](../requirements.txt), configura las rutas locales y ejecuta el entrenamiento. CIFAR-10 y STL-10 se descargan mediante Torchvision. Los pesos genéricos preentrenados de Torchvision no sustituyen los modelos finales ajustados de Minnie. [Recursos y ejecución local](../RESOURCES.md) · [Guía general](../../docs/RUNNING.md).
 
 La exportación HTML y el informe permiten consultar resultados sin disponer de los checkpoints.
+
+Los cuatro checkpoints de Fran han superado la carga estricta y una inferencia con entradas sintéticas; los cuatro historiales son válidos. Esta comprobación confirma compatibilidad estructural, sin volver a medir accuracy. [Detalle de las pruebas](../RESOURCES.md#comprobación-de-compatibilidad).

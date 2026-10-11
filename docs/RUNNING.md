@@ -29,10 +29,15 @@ Antes de ejecutar, ajusta las rutas que se describen en el README de cada proyec
 | LLM locales | Servicio de Ollama, modelos Llama/Qwen y recursos de memoria suficientes |
 | Series temporales | Ajustar dos rutas al CSV; generar particiones y resultados intermedios en orden |
 | Fútbol | Ajustar ruta al dataset; compatibilidad con la API de pgmpy; Graphviz para gráficos |
-| CNN y autoencoders | Colab/Drive, datasets descargables, entrenamiento o checkpoints externos |
-| YOLO | Acceso al dataset externo, `labels.zip` incluido y configuración de Colab |
-| Conducción RL | Entorno externo, parche `car_racing_obstacles.py` y checkpoints; el parche y los pesos no están en la copia |
+| CNN de Fran | CIFAR-10 descargable; pesos e historiales recuperados en Drive privado, todavía sin descarga pública |
+| Transfer learning de Minnie | STL-10 descargable; sus checkpoints finales no están disponibles |
+| Autoencoders y clasificación sobre encoders | KMNIST descargable; pesos originales no localizados y sin enlace de descarga; es necesario reentrenar para generar nuevos pesos |
+| YOLO de Minnie | `labels.zip` incluido; imágenes originales y pesos entrenados no disponibles en el portfolio |
+| Conducción RL de Fran | Entorno externo; parche y dos checkpoints recuperados en Drive privado, todavía sin descarga pública |
+| Navegación de robot de Minnie | Entorno externo; checkpoints originales no disponibles |
 | Telemetría | Docker activo, variables `.env`, imágenes compatibles, importación de dashboard/consultas |
+
+Consulta el [inventario de recursos de Deep Learning y las adaptaciones locales](../06-applied-deep-learning/RESOURCES.md) antes de ejecutar sus notebooks. Los bloques que cargan archivos no disponibles no pueden evaluarse con los modelos originales. Algunos pueden reentrenarse con datasets descargables, generando nuevos checkpoints.
 
 No se ha reproducido íntegramente el entrenamiento ni la evaluación de los modelos. Las cifras se presentan como resultados del experimento académico publicado. La disponibilidad de los recursos externos puede cambiar.
 

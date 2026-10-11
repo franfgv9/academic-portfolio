@@ -42,6 +42,8 @@ El bloque de Minnie compara agentes para navegación de un robot en `IndoorRobot
 
 ## Recursos para volver a ejecutarlo
 
-Los notebooks usan Google Colab, Drive, datasets descargables y checkpoints. Los pesos entrenados y el archivo parcheado del entorno de conducción **no están incluidos** en esta copia. Cada página indica los recursos necesarios; los informes y salidas de los notebooks permiten revisar los experimentos sin reentrenarlos.
+Los notebooks usan Google Colab, Drive, datasets descargables y checkpoints. Los pesos de CNN de Fran y dos de conducción, junto con el parche del entorno, se han recuperado de Drive privado, pero **todavía no tienen una descarga pública**. Los pesos originales de autoencoders y clasificadores no se han localizado; los archivos de los experimentos de Minnie no están disponibles en este portfolio.
+
+Consulta el [inventario de recursos y la guía para ejecución local](RESOURCES.md). Los informes y salidas permiten revisar el trabajo; la evaluación con los modelos originales requiere sus archivos. Donde el dataset es descargable, se pueden generar nuevos pesos mediante entrenamiento.
 
 **Stack:** PyTorch, Torchvision, NumPy, scikit-learn, Gymnasium, Box2D y Ultralytics en el bloque de detección.

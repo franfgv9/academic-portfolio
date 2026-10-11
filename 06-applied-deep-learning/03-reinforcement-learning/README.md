@@ -34,6 +34,8 @@ Comparación de agentes DQN y Double Dueling DQN con representación vectorial d
 
 ## Recursos necesarios para reproducirlo
 
-El notebook se preparó para Colab y utiliza los entornos externos enlazados en sus celdas. La parte de conducción espera un archivo parcheado `car_racing_obstacles.py` en Drive. **Ese parche y los checkpoints no están incluidos** en el repositorio de origen.
+El notebook se preparó para Colab y utiliza los entornos externos enlazados en sus celdas. Se han recuperado de Drive privado el parche `car_racing_obstacles.py`, `BestCarRacing_bestAvg20_model_4_generalizado.pth` y `BestCarRacing_best_model.pth`. **Todavía no se proporciona una descarga pública de esos archivos.** El nombre del checkpoint generalizado difiere de la ruta de evaluación del notebook y debe configurarse expresamente.
 
-Sin esos recursos puede revisarse el código, las salidas, el vídeo y el informe, pero no se afirma que sea posible repetir exactamente la evaluación final. Para reentrenar hay que recuperar/configurar el parche, el entorno, los pesos o su entrenamiento y las rutas de Drive. [Guía general](../../docs/RUNNING.md).
+**Los checkpoints originales del robot de Minnie no están disponibles** en este portfolio. Sin los recursos correspondientes puede revisarse el código, las salidas, el vídeo y el informe, pero no evaluarse directamente los agentes originales. Para un entrenamiento nuevo hay que configurar el entorno, el parche cuando corresponda y las rutas locales. [Recursos y comprobación de compatibilidad](../RESOURCES.md) · [Guía general](../../docs/RUNNING.md).
+
+Los dos checkpoints de conducción han superado la carga estricta con la clase `DQN` publicada y una inferencia sintética con 12 canales de entrada y 31 acciones. Hay que activar `use_dueling=True` expresamente. No se ha ejecutado el simulador ni vuelto a medir las recompensas. [Detalle de las pruebas](../RESOURCES.md#comprobación-de-compatibilidad).

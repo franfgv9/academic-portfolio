@@ -11,3 +11,4 @@ node_modules/
 Thumbs.db
 02-hate-speech-detection/data/glove_s100.txt
 02-hate-speech-detection/data/glove_s100.txt.zip
+/checkpoints/

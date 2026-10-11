@@ -1,0 +1,202 @@
+{
+  "python": "3.12.3",
+  "torch": "2.8.0+cpu",
+  "device": "cpu",
+  "notebooks": [
+    {
+      "file": "Practical_Assignment_1(Minnie&Fran).ipynb",
+      "bytes": 2248903,
+      "sha256": "8453b30824bd61ea384d3aaaa392b1871fc99e7e089920be0afd94172ce6378d"
+    },
+    {
+      "file": "Practical_Assignment_3(Minnie_&_Fran).ipynb",
+      "bytes": 4415942,
+      "sha256": "f1d2a4511619770489f461df4e2425514936e6ec09a01fa5694c9a3712c70b66"
+    }
+  ],
+  "rl_configuration": {
+    "input_channels": 12,
+    "actions": 31,
+    "use_dueling": true
+  },
+  "checks": [
+    {
+      "file": "arquitectura_base_CIFAR_10_best_state_c1.pt",
+      "bytes": 5707573,
+      "sha256": "1a013fce8988288dd2decc848e79d366a5ef9fc3bfe687d8a9282a509ce8ccd7",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 26,
+      "input_shape": [
+        2,
+        3,
+        32,
+        32
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_loss_history_c1.pt",
+      "bytes": 1855,
+      "sha256": "c83ff620c6efb8f56436a36cafb2179af32ab8752aa2cfa1c02369a6a707f763",
+      "history_keys": [
+        "train_losses",
+        "val_losses"
+      ],
+      "epochs": 15,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_best_state_c2.pt",
+      "bytes": 5707573,
+      "sha256": "3eb73339ab36211f59ff0a45862e487e0479b054e053cce4c8407fd6c6e65bca",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 26,
+      "input_shape": [
+        2,
+        3,
+        32,
+        32
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_loss_history_c2.pt",
+      "bytes": 1855,
+      "sha256": "df649e11538e626c42ccdeefa971f984482c2e09c0fab593b276f5ed2d1752c1",
+      "history_keys": [
+        "train_losses",
+        "val_losses"
+      ],
+      "epochs": 15,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_best_state_c3.pt",
+      "bytes": 5707573,
+      "sha256": "00a3041ed218921a2c5ee772fdfa193f3276e30cb5e3d3a36c5268c31df1cdaf",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 26,
+      "input_shape": [
+        2,
+        3,
+        32,
+        32
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_loss_history_c3.pt",
+      "bytes": 1855,
+      "sha256": "929a8e0c535bf5ffda7940bd2c7acab1e73e572ad62cbc08e86b68b571fd7c75",
+      "history_keys": [
+        "train_losses",
+        "val_losses"
+      ],
+      "epochs": 15,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_best_state_c4.pt",
+      "bytes": 5707573,
+      "sha256": "8246f4cd853f86d08623fa2a784c01d95c74081c33869637d5650bc36a4f26b6",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 26,
+      "input_shape": [
+        2,
+        3,
+        32,
+        32
+      ],
+      "output_shape": [
+        2,
+        10
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    },
+    {
+      "file": "arquitectura_base_CIFAR_10_loss_history_c4.pt",
+      "bytes": 1855,
+      "sha256": "3c013dbc7f8a3a96f67ad32a3ee2a930b23d19547ca86ea08b05a641bc1f429f",
+      "history_keys": [
+        "train_losses",
+        "val_losses"
+      ],
+      "epochs": 15,
+      "compatible": true
+    },
+    {
+      "file": "BestCarRacing_bestAvg20_model_4_generalizado.pth",
+      "bytes": 17295265,
+      "sha256": "5aaf02572c47292d9c93f7bbb547bb94d7e647a3b0080331fc9e5948ef1fd69e",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 16,
+      "input_shape": [
+        2,
+        12,
+        96,
+        96
+      ],
+      "output_shape": [
+        2,
+        31
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    },
+    {
+      "file": "BestCarRacing_best_model.pth",
+      "bytes": 17294825,
+      "sha256": "a54ae8fd781ecd2b11fbf4c5545585048ebf2642cfb909128c7673f41494ebf7",
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatches": {},
+      "state_entries": 16,
+      "input_shape": [
+        2,
+        12,
+        96,
+        96
+      ],
+      "output_shape": [
+        2,
+        31
+      ],
+      "finite_weights": true,
+      "finite_output": true,
+      "compatible": true
+    }
+  ],
+  "scope": "Strict state_dict load, finite tensors and synthetic inference; no dataset evaluation or environment rollout.",
+  "all_compatible": true
+}
