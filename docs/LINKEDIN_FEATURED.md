@@ -1,12 +1,14 @@
 # Textos preparados para LinkedIn · Destacado
 
-Destino propuesto: `https://github.com/franfgv9/academic-portfolio`. Los enlaces de esta página solo estarán disponibles después de publicar el nuevo repositorio con ese nombre. No se han realizado cambios en LinkedIn.
+Entrada principal recomendada: `https://github.com/franfgv9`. Esta página muestra la foto, la presentación profesional y los enlaces a los seis proyectos. El repositorio `academic-portfolio` reúne el código y la documentación. Ambos están publicados. No se han realizado cambios en LinkedIn.
+
+Recorrido del visitante: LinkedIn → perfil de GitHub → proyecto académico → explicación, contribuciones, código e informes. Las tarjetas específicas de Destacado enlazan directamente a cada proyecto.
 
 Usa el PNG indicado para cada tarjeta si el editor de LinkedIn permite personalizar la miniatura. El título y la descripción están preparados para copiar. El orden propuesto destaca primero la entrada general, Deep Learning y NLP.
 
 ## 1. Portfolio académico · Francisco Gil Valverde
 
-**Enlace:** https://github.com/franfgv9/academic-portfolio
+**Enlace:** https://github.com/franfgv9
 
 **Descripción:** Seis proyectos de Machine Learning, IA y ciencia de datos: código, informes, resultados con contexto y contribuciones identificadas. Formación en la UMU y experiencia académica en Coimbra.
 
