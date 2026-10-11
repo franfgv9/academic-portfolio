@@ -10,7 +10,7 @@ Clasificación binaria de comentarios de Instagram en portugués brasileño como
 
 ## Autoría
 
-Trabajo académico en equipo con **Gastón Fernández Rodríguez**. Los resultados corresponden al proyecto conjunto; los informes no detallan un reparto individual de tareas.
+Trabajo académico en equipo con **Gastón Fernández Rodríguez**. Los resultados corresponden al proyecto conjunto.
 
 ## Metodología
 
